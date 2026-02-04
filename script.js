@@ -1,9 +1,9 @@
 const questions=[
-{q:"Capital of Somalia?",a:["Mogadishu","Hargeisa","Kismayo"],c:"Mogadishu"},
-{q:"Countries in Africa?",a:["54","50","60"],c:"54"},
-{q:"JavaScript is?",a:["OS","Language","Browser"],c:"Language"},
-{q:"HTML is used for?",a:["Structure","Design","Security"],c:"Structure"},
-{q:"CSS controls?",a:["Logic","Style","Database"],c:"Style"}
+{q:"Caasimada Somalia waa?",a:["Mogadishu","Hargeisa","Kismayo"],c:"Mogadishu"},
+{q:"qaarada africa waa meeqo wadan?",a:["54","50","60"],c:"54"},
+{q:"somalia waa meeqo gobol?",a:["22","18","10"],c:"18"},
+{q:"madaxwaynihii ugu horeyay somaliya?",a:["Aadan cadde","Xassan shiiq","Cabdi Qasim"],c:"Aadan cadde"},
+{q:"hada yaa madaxwayne ka ah somalia?",a:["Xassan shiiq","Shiiq shariif","cabdi Qasim"],c:"Xassan shiiq"}
 ];
 
 const quiz=document.getElementById("quiz");
