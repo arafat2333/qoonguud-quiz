@@ -1,0 +1,48 @@
+v<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html">About</a>
+</nav>
+
+<button id="darkModeBtn">🌙 Dark Mode</button>
+
+<div class="container">
+
+<div id="startSection">
+    <h1>Aqoonguud Quiz</h1>
+    <p>Enter your name or ID</p>
+    <input type="text" id="username" placeholder="Name or ID">
+    <button id="startBtn">Start Quiz</button>
+</div>
+
+<div id="timer" class="hidden">⏱ Time: 10:00</div>
+
+<div class="progress-container hidden">
+    <div id="progress-bar"></div>
+</div>
+
+<div id="quiz" class="hidden"></div>
+<button id="submitBtn" class="hidden">Submit</button>
+
+<div id="result"></div>
+
+<div id="certificate" class="certificate">
+    <h2>congratulation of Complete</h2>
+    <p id="certText"></p>
+    <button id="submitBtn" class="hidden">Submit</button>
+    
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
